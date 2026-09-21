@@ -1,0 +1,80 @@
+{
+  "version": 1,
+
+  "agency_fee_rate": 0.08,
+
+  "offers": {
+
+    "418": {
+      "result_source": "Results",
+      "default_payout": 0.25,
+
+      "geo_payout_overrides": {
+        "ZW": 0.15,
+        "UY": 0.15,
+        "CO": 0.15,
+        "PE": 0.15,
+        "PY": 0.15,
+        "DO": 0.15,
+        "PA": 0.15,
+        "EC": 0.15
+
+      }
+    },
+
+    "339": {
+      "result_source": "Results",
+      "default_payout": null,
+
+      "geo_payouts": {
+        "BR": 2.15,
+        "BD": 2.8,
+        "ID": 2.63,
+        "MX": 1.88,
+        "TH": 1.38,
+        "ZA": 1.7,
+        "ZW": 2.0
+      }
+    }
+
+  },
+
+  "supported_geo_codes": [
+    "AR",
+    "BD",
+    "BG",
+    "BR",
+    "CL",
+    "CI",
+    "CO",
+    "GH",
+    "ID",
+    "KE",
+    "MZ",
+    "MX",
+    "NG",
+    "PE",
+    "PH",
+    "PK",
+    "RO",
+    "HU",
+    "TH",
+    "US",
+    "UY",
+    "VN",
+    "ZA",
+    "ZM",
+    "ZW",
+    "MY",
+    "MM",
+    "MW",
+    "NA",
+    "DO",
+    "PA",
+    "EC",
+    "DE",
+    "PY",
+    "TZ"
+
+  ]
+}
